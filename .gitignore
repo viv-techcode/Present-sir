@@ -1,0 +1,51 @@
+# === Dependencies ===
+node_modules/
+.pnp/
+.pnp.js
+
+# === Build output ===
+.next/
+out/
+build/
+dist/
+
+# === Environment / secrets ===
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# === TypeScript ===
+*.tsbuildinfo
+next-env.d.ts
+
+# === Testing / tooling artifacts ===
+.artifacts/
+playwright-report/
+test-results/
+coverage/
+
+# === IDE / OS ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Design system docs (internal reference only) ===
+DESIGN.md
+**/docs/DESIGN-INTEGRATION.md
+
+# === Duplicate / non-working copy (not for public repo) ===
+present-sir-master-plan/
+
+# === Misc ===
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vercel
