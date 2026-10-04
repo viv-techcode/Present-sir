@@ -19,7 +19,7 @@ A responsive web application for Indian college students and class representativ
 | Validation | Zod-style guards + server-side permission checks |
 | Tests | `node:test` unit tests · Playwright E2E (360 / 768 / 1440 px) |
 
-> **Note:** The master plan specifies Supabase for backend/auth/RLS. This implementation uses a
+> **Note:** The intended specifies Supabase for backend/auth/RLS. This implementation uses a
 > local PostgreSQL instance with equivalent guarantees in the app layer —
 > `src/lib/auth.ts` + `src/lib/actions/*` perform membership/role checks on every read and write.
 > Swapping in Supabase later only touches this layer.
@@ -178,7 +178,3 @@ hub). Phase 5 (PWA / offline, push notifications, OCR timetable import, light mo
 intentionally not started — the architecture leaves room for it.
 
 ---
-
-## License
-
-MIT
